@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.auto.service.impl.AutoFunctionImpl">
+        <methods>
+          <include name="BeforeClass"/>
+          <include name="loginAuthentication"/>
+          <include name="autoRegister"/>
+          <include name="autoLogin"/>
+          <include name="autoRegisterValidity"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- com.auto.service.impl.AutoFunctionImpl -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

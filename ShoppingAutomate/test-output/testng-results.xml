@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29045" started-at="2020-07-19T18:10:24Z" finished-at="2020-07-19T18:10:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29045" started-at="2020-07-19T18:10:24Z" finished-at="2020-07-19T18:10:53Z">
+      <class name="com.auto.service.impl.AutoFunctionImpl">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.auto.service.impl.AutoFunctionImpl@5700d6b1]" name="BeforeClass" is-config="true" duration-ms="14257" started-at="2020-07-19T18:10:24Z" finished-at="2020-07-19T18:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="autoRegisterValidity()[pri:1, instance:com.auto.service.impl.AutoFunctionImpl@5700d6b1]" name="autoRegisterValidity" duration-ms="1390" started-at="2020-07-19T18:10:38Z" finished-at="2020-07-19T18:10:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoRegisterValidity -->
+        <test-method status="PASS" signature="autoRegister()[pri:2, instance:com.auto.service.impl.AutoFunctionImpl@5700d6b1]" name="autoRegister" duration-ms="1025" started-at="2020-07-19T18:10:40Z" depends-on-methods="com.auto.service.impl.AutoFunctionImpl.autoRegisterValidity" finished-at="2020-07-19T18:10:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoRegister -->
+        <test-method status="PASS" signature="autoLogin()[pri:3, instance:com.auto.service.impl.AutoFunctionImpl@5700d6b1]" name="autoLogin" duration-ms="3180" started-at="2020-07-19T18:10:41Z" depends-on-methods="com.auto.service.impl.AutoFunctionImpl.autoRegister" finished-at="2020-07-19T18:10:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoLogin -->
+        <test-method status="PASS" signature="loginAuthentication()[pri:4, instance:com.auto.service.impl.AutoFunctionImpl@5700d6b1]" name="loginAuthentication" duration-ms="1018" started-at="2020-07-19T18:10:44Z" depends-on-methods="com.auto.service.impl.AutoFunctionImpl.autoLogin" finished-at="2020-07-19T18:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAuthentication -->
+        <test-method status="PASS" signature="search()[pri:5, instance:com.auto.service.impl.AutoFunctionImpl@5700d6b1]" name="search" duration-ms="2932" started-at="2020-07-19T18:10:45Z" finished-at="2020-07-19T18:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="addToCart()[pri:6, instance:com.auto.service.impl.AutoFunctionImpl@5700d6b1]" name="addToCart" duration-ms="4927" started-at="2020-07-19T18:10:48Z" depends-on-methods="com.auto.service.impl.AutoFunctionImpl.search" finished-at="2020-07-19T18:10:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.auto.service.impl.AutoFunctionImpl@5700d6b1]" name="AfterClass" is-config="true" duration-ms="282" started-at="2020-07-19T18:10:53Z" finished-at="2020-07-19T18:10:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- com.auto.service.impl.AutoFunctionImpl -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
