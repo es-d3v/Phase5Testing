@@ -18,7 +18,7 @@ import org.testng.annotations.Test;
 
 public class AutomationMain {
 
-		public static String email = "TestMail123@eoopy.com";							//qbm88982@bcaoo.com  
+		public static String email = "TestMail1234@eoopy.com";							//qbm88982@bcaoo.com  
 		public static String password = "123456789";								//123465789	
 
 		public static String query =  "dress";
